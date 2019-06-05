@@ -4,8 +4,8 @@
 	 $curryear = date("Y");
 	 $currmonth = date("m");
 	 $baseyear = ($curryear - 1);
-	 //$grpID = $_SESSION['grpID'];
-	 $grpID = 3;
+	 $grpID = $_SESSION['grpID'];
+	 // $grpID = 3;
 
 	 
 	 // echo$currmonth;

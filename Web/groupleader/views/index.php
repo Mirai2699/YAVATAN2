@@ -181,7 +181,7 @@
                         <div class="palebluecolorbg no-radius">
                             <div class="panel-body squarebox square_boxs">
                                 <div class="col-xs-12 pull-left nopadmar">
-                                    <div class="row">
+                                    <div class="row">   
                                         <div class="square_box col-xs-7 pull-left">
                                             <span>Followed Up</span>
                                             <div class="number" id="myTargetElement4">
@@ -210,7 +210,7 @@
                 </div>
                 <div class="row">
                     <!--START OF WEATHER PREDICTION-->
-                    <div class="col-lg-6 margin_10 animated fadeInLeftBig" style="height: 220px">
+                    <div class="col-lg-4 margin_10 animated fadeInLeftBig" style="height: 220px">
                         <div class="no-radius" style="height: 200px; background-color: darkviolet; color: white">
                           <?php 
                              include("../functionalities/weather_predict.php");
@@ -239,7 +239,7 @@
                     <!--END OF WEATHER PREDICTION-->
 
                     <!--START OF ATTENDANCE PREDICTION-->
-                    <div class="col-lg-6 margin_10 animated fadeInDownBig" style="height: 220px">
+                    <div class="col-lg-4 margin_10 animated fadeInDownBig" style="height: 220px">
                         <div class="no-radius" style="height: 200px; background-color: goldenrod; color: white">
                            <?php 
                              include("../functionalities/audience_predict.php");
@@ -268,7 +268,7 @@
                     <!--END OF ATTENDANCE PREDICTION-->
 
                      <!--START OF BUDGET PREDICTION-->
-                    <!-- <div class="col-lg-4 margin_10 animated fadeInRightBig" style="height: 220px">
+                    <div class="col-lg-4 margin_10 animated fadeInRightBig" style="height: 220px">
                         <div class="no-radius" style="height: 200px; background-color: navy; color: white">
                            <?php 
                              include("../functionalities/budget_predict.php");
@@ -293,7 +293,7 @@
                                 </div>
                             </div>
                          </div>
-                    </div> -->
+                    </div> 
                     <!--END OF BUDGET PREDICTION-->
                 </div>
 
